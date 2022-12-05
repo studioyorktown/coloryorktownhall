@@ -55,4 +55,16 @@
     "name": "Brubeck",
     "colors": ["#f9f0de", "#1d1d1b", "#224870", "#d83715", "#f7f8e6"]
   }
+  {
+    "name": "Kabuki",
+    "colors": ["#ebe2cf", "#bc9a56", "#b76f30", "#d80f15", "#1d1e1b"]
+  }
+  {
+    "name": "Bregenz",
+    "colors": ["#ebe2cf", "#8e8780", "#fab515", "#d7312e", "#2a71af", "ad7347", "1d1d1b"]
+  }
+  {
+    "name": "Auberge du Jaune",
+    "colors": ["#f5b000", "#ffe4ac", "#eabd75", "#ebe2cf"]
+  }
 ]
