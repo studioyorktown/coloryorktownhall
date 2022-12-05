@@ -43,4 +43,16 @@
     "name": "Africana",
     "colors": ["#d2452b", "#385d32", "#392b24", "#fab511", "#f9f0de"]
   }
+  {
+    "name": "Tutti",
+    "colors": ["#D7312E", "#ECE3D0", "#F0AC00", "#0C7E45", "#2c52a0", "f7bab6", "5ec5ee", "1d1d1b"]
+  }
+  {
+    "name": "Toucan",
+    "colors": ["#d2b0a3", "#efd1ae", "#f39b00", "#ec6907", "#2c52a0", "1d1d1b", "ece3d0", "f9f0de"]
+  }
+  {
+    "name": "Brubeck",
+    "colors": ["#f9f0de", "#1d1d1b", "#224870", "#d83715", "#f7f8e6"]
+  }
 ]
