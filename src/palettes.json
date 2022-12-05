@@ -66,5 +66,9 @@
   {
     "name": "Auberge du Jaune",
     "colors": ["#f5b000", "#ffe4ac", "#eabd75", "#ebe2cf"]
+  },
+  {
+    "name": "Shibuya",
+    "colors": ["#d2b0a3", "#ffd200", "#e51f23", "#e6007b", "005aa7", "5ec5ee", "f9f0de",  "1d1d1b"]
   }
 ]
