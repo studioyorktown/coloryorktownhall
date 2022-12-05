@@ -6,7 +6,7 @@
   <title>Yorktown Colors</title>
   <link href="https://rsms.me/inter/inter.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-  
+
   <style>
     :root {
       --bg: #d9cbbe;
@@ -194,7 +194,7 @@
       transition-delay: 250ms, 250ms;
     }
 
-    .palettes__info + .palettes__info {
+    .palettes__info+.palettes__info {
       margin-top: 0.2em;
       transition-delay: 200ms, 200ms;
     }
@@ -391,7 +391,7 @@
     }
 
     const allColors = palettes.map(pal => pal.colors).flat().map(c => c.value);
-    
+
     const uniqueColors = [...new Set(allColors)];
     const colorsByWeight = {};
 
