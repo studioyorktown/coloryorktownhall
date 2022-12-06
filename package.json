@@ -32,7 +32,7 @@
   "devDependencies": {
     "eslint": "^8.28.0",
     "eslint-config-google": "^0.14.0",
-    "palette-aldente": "^1.8.1"
+    "palette-aldente": "^1.8.2"
   },
   "exports": {
     "import": "./dist/palettes.esm.js",
