@@ -1,17 +1,16 @@
 {
-  "name": "palette-aldente",
-  "version": "1.7.0",
-  "description": "A collection of color palettes",
+  "name": "coloryorktownhall",
+  "version": "1.0.0",
+  "description": "Studio Yorktown Color library",
   "main": "dist/palettes.js",
   "type": "module",
   "scripts": {
-    "build": "node ./build/asetojson.js && node ./build/mergejson.js && node ./build/cli.js ./src/merged.json --formats name,rgb",
-    "build:js": "rollup --config rollup.config.js",
+    "build": "node ./build/asetojson.js && node ./build/mergejson.js && palette-aldente ./src/merged.json --formats name --no-html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/meodai/palette-aldente.git"
+    "url": "git+https://github.com/studioyorktown/coloryorktownhall.git"
   },
   "keywords": [
     "color",
@@ -21,34 +20,22 @@
     "art",
     "generative"
   ],
-  "author": "meodai@gmail.com",
+  "author": "@studioyorktown",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/meodai/palette-aldente/issues"
+    "url": "https://github.com/studioyorktown/coloryorktownhall/issues"
   },
-  "homepage": "https://github.com/meodai/palette-aldente#readme",
+  "homepage": "https://studioyorktown.github.io/coloryorktownhall/",
   "dependencies": {
-    "ase-util": "^1.0.3",
-    "chalk": "^5.1.2",
-    "color-name-api": "^0.3.0",
-    "color-name-list": "^9.26.1",
-    "color-name-lists": "^3.8.1",
-    "commander": "^9.4.1",
-    "culori": "^2.0.3",
-    "js-yaml": "^4.1.0",
-    "seedrandom": "^3.0.5"
+    "ase-util": "^1.0.3"
   },
   "devDependencies": {
-    "@rollup/plugin-json": "^5.0.2",
     "eslint": "^8.28.0",
     "eslint-config-google": "^0.14.0",
-    "rollup": "^3.5.0"
+    "palette-aldente": "^1.7.2"
   },
   "exports": {
     "import": "./dist/palettes.esm.js",
     "require": "./dist/palettes.js"
-  },
-  "bin": {
-    "palette-aldente": "./build/cli.js"
   }
 }
