@@ -64,25 +64,24 @@ text {
 <rect width="23" height="10" y="296" x="125" fill="#f7bab6" />
 <rect width="23" height="10" y="296" x="150" fill="#5ec5ee" />
 <rect width="23" height="10" y="296" x="175" fill="#1d1d1b" />
-<text y="319" x="3">Toucan</text><rect width="23" height="10" y="322" x="0" fill="#d2b0a3" />
-<rect width="23" height="10" y="322" x="25" fill="#efd1ae" />
-<rect width="23" height="10" y="322" x="50" fill="#f39b00" />
-<rect width="23" height="10" y="322" x="75" fill="#ec6907" />
-<rect width="23" height="10" y="322" x="100" fill="#2c52a0" />
-<rect width="23" height="10" y="322" x="125" fill="#1d1d1b" />
-<rect width="23" height="10" y="322" x="150" fill="#f9f0de" />
-<rect width="23" height="10" y="322" x="175" fill="#f9f0de" />
+<text y="319" x="3">Toucan</text><rect width="26.571428571428573" height="10" y="322" x="0" fill="#d2b0a3" />
+<rect width="26.571428571428573" height="10" y="322" x="28.571428571428573" fill="#efd1ae" />
+<rect width="26.571428571428573" height="10" y="322" x="57.142857142857146" fill="#f39b00" />
+<rect width="26.571428571428573" height="10" y="322" x="85.71428571428572" fill="#ec6907" />
+<rect width="26.571428571428573" height="10" y="322" x="114.28571428571429" fill="#2c52a0" />
+<rect width="26.571428571428573" height="10" y="322" x="142.85714285714286" fill="#1d1d1b" />
+<rect width="26.571428571428573" height="10" y="322" x="171.42857142857144" fill="#f9f0de" />
 <text y="345" x="3">Brubeck</text><rect width="38" height="10" y="348" x="0" fill="#f9f0de" />
 <rect width="38" height="10" y="348" x="40" fill="#1d1d1b" />
 <rect width="38" height="10" y="348" x="80" fill="#224870" />
 <rect width="38" height="10" y="348" x="120" fill="#d83715" />
 <rect width="38" height="10" y="348" x="160" fill="#f7f8e6" />
-<text y="371" x="3">Kabuki</text><rect width="38" height="10" y="374" x="0" fill="#ebe2cf" />
+<text y="371" x="3">Kabuki</text><rect width="38" height="10" y="374" x="0" fill="#f9f0de" />
 <rect width="38" height="10" y="374" x="40" fill="#bc9a56" />
 <rect width="38" height="10" y="374" x="80" fill="#b76f30" />
 <rect width="38" height="10" y="374" x="120" fill="#d80f15" />
 <rect width="38" height="10" y="374" x="160" fill="#1d1e1b" />
-<text y="397" x="3">Bregenz</text><rect width="26.571428571428573" height="10" y="400" x="0" fill="#ebe2cf" />
+<text y="397" x="3">Bregenz</text><rect width="26.571428571428573" height="10" y="400" x="0" fill="#f9f0de" />
 <rect width="26.571428571428573" height="10" y="400" x="28.571428571428573" fill="#8e8780" />
 <rect width="26.571428571428573" height="10" y="400" x="57.142857142857146" fill="#fab515" />
 <rect width="26.571428571428573" height="10" y="400" x="85.71428571428572" fill="#d7312e" />
@@ -92,15 +91,15 @@ text {
 <text y="423" x="3">Auberge du Jaune</text><rect width="48" height="10" y="426" x="0" fill="#f5b000" />
 <rect width="48" height="10" y="426" x="50" fill="#ffe4ac" />
 <rect width="48" height="10" y="426" x="100" fill="#eabd75" />
-<rect width="48" height="10" y="426" x="150" fill="#ebe2cf" />
-<text y="449" x="3">Shibuya</text><rect width="23" height="10" y="452" x="0" fill="#d2b0a3" />
-<rect width="23" height="10" y="452" x="25" fill="#ffd200" />
-<rect width="23" height="10" y="452" x="50" fill="#e51f23" />
-<rect width="23" height="10" y="452" x="75" fill="#e6007b" />
-<rect width="23" height="10" y="452" x="100" fill="#005aa7" />
-<rect width="23" height="10" y="452" x="125" fill="#5ec5ee" />
-<rect width="23" height="10" y="452" x="150" fill="#f9f0de" />
-<rect width="23" height="10" y="452" x="175" fill="#1d1d1b" />
+<rect width="48" height="10" y="426" x="150" fill="#f9f0de" />
+<text y="449" x="3">Shibuya</text><rect width="23" height="10" y="452" x="0" fill="#1d1d1b" />
+<rect width="23" height="10" y="452" x="25" fill="#d2b0a3" />
+<rect width="23" height="10" y="452" x="50" fill="#ffd200" />
+<rect width="23" height="10" y="452" x="75" fill="#e51f23" />
+<rect width="23" height="10" y="452" x="100" fill="#e6007b" />
+<rect width="23" height="10" y="452" x="125" fill="#005aa7" />
+<rect width="23" height="10" y="452" x="150" fill="#5ec5ee" />
+<rect width="23" height="10" y="452" x="175" fill="#f9f0de" />
 <text y="475" x="3">Nagaiesque</text><rect width="31.333333333333336" height="10" y="478" x="0" fill="#f299a5" />
 <rect width="31.333333333333336" height="10" y="478" x="33.333333333333336" fill="#084698" />
 <rect width="31.333333333333336" height="10" y="478" x="66.66666666666667" fill="#1a86c8" />
@@ -113,12 +112,12 @@ text {
 <rect width="26.571428571428573" height="10" y="504" x="85.71428571428572" fill="#e94e23" />
 <rect width="26.571428571428573" height="10" y="504" x="114.28571428571429" fill="#f49700" />
 <rect width="26.571428571428573" height="10" y="504" x="142.85714285714286" fill="#bd8b5f" />
-<rect width="26.571428571428573" height="10" y="504" x="171.42857142857144" fill="#ebe2cf" />
+<rect width="26.571428571428573" height="10" y="504" x="171.42857142857144" fill="#f9f0de" />
 <text y="527" x="3">Evolved Basics</text><rect width="31.333333333333336" height="10" y="530" x="0" fill="#2760ab" />
 <rect width="31.333333333333336" height="10" y="530" x="33.333333333333336" fill="#f6bcd2" />
 <rect width="31.333333333333336" height="10" y="530" x="66.66666666666667" fill="#e73d1f" />
 <rect width="31.333333333333336" height="10" y="530" x="100" fill="#ffcf00" />
-<rect width="31.333333333333336" height="10" y="530" x="133.33333333333334" fill="#ebe2cf" />
+<rect width="31.333333333333336" height="10" y="530" x="133.33333333333334" fill="#f9f0de" />
 <rect width="31.333333333333336" height="10" y="530" x="166.66666666666669" fill="#1d1d1b" />
 <text y="553" x="3">Astoria</text><rect width="31.333333333333336" height="10" y="556" x="0" fill="#efe7d3" />
 <rect width="31.333333333333336" height="10" y="556" x="33.333333333333336" fill="#e9cda9" />
