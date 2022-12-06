@@ -20,6 +20,17 @@
       padding: 0 3rem;
     }
 
+    a {
+      font-weight: 500;
+      color: #D83715;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+      text-decoration-color: #202125;
+    }
+
     .app {
       max-width: 44rem;
       margin: 6rem auto;
@@ -126,7 +137,7 @@
       transform: translateY(0.5em);
     }
 
-    .palettes__head>* {
+    .palettes__head > * {
       opacity: 0;
       display: block;
       width: 100%;
@@ -179,6 +190,11 @@
       font-size: 0.7em;
       font-weight: 600;
       text-transform: uppercase;
+    }
+
+
+    .palettes__palette--many .palettes__data {
+      font-size: 0.6em;
     }
 
     .palettes__data strong {
@@ -300,7 +316,7 @@
 
     const $wrap = document.querySelector('[data-colors]');
 
-    const palettes = colorPalettes.palettesFlat;
+    const palettes = colorPalettes.palettesFlat.sort((c1, c2) => c1.colors.length - c2.colors.length);
 
     const $app = document.querySelector('[data-app]');
 
@@ -319,6 +335,10 @@
         $wrapBaby.style.setProperty('--colors-scaled',
           chroma.scale(palette.colors.map(c => c.value)).mode('lch').colors(40).join()
         );
+
+        if (palette.colors.length > 5) {
+          $wrapBaby.classList.add('palettes__palette--many');
+        }
 
 
         const $paletteTitle = document.createElement('h2');
