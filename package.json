@@ -5,7 +5,7 @@
   "main": "dist/palettes.js",
   "type": "module",
   "scripts": {
-    "build": "node ./build/asetojson.js && node ./build/mergejson.js && palette-aldente ./src/merged.json --formats name --no-html",
+    "build": "rm -rf ./dist/img/ && node ./build/asetojson.js && node ./build/mergejson.js && palette-aldente ./src/merged.json --formats name --no-html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -32,7 +32,7 @@
   "devDependencies": {
     "eslint": "^8.28.0",
     "eslint-config-google": "^0.14.0",
-    "palette-aldente": "^1.7.2"
+    "palette-aldente": "^1.8.1"
   },
   "exports": {
     "import": "./dist/palettes.esm.js",
