@@ -300,7 +300,7 @@
 
     const $wrap = document.querySelector('[data-colors]');
 
-    const palettes = colorPalettes.palettesFlat;
+    const palettes = colorPalettes.palettesFlat.sort((c1, c2) => c1.colors.length - c2.colors.length);
 
     const $app = document.querySelector('[data-app]');
 
