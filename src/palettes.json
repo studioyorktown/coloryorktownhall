@@ -1,6 +1,6 @@
 [  
   {
-    "name": "Shirotokuro",
+    "name": "Shirokuro",
     "colors": ["#f9f0de", "#392b24"]
   },
   {
@@ -45,11 +45,11 @@
   },
   {
     "name": "Tutti",
-    "colors": ["#d7312E", "#ece3D0", "#f0ac00", "#0c7E45", "#2c52a0", "f7bab6", "5ec5ee", "1d1d1b"]
+    "colors": ["#d7312E", "#f9f0de", "#f0ac00", "#0c7E45", "#2c52a0", "f7bab6", "5ec5ee", "1d1d1b"]
   },
   {
     "name": "Toucan",
-    "colors": ["#d2b0a3", "#efd1ae", "#f39b00", "#ec6907", "#2c52a0", "1d1d1b", "ece3d0", "f9f0de"]
+    "colors": ["#d2b0a3", "#efd1ae", "#f39b00", "#ec6907", "#2c52a0", "1d1d1b", "f9f0de", "f9f0de"]
   },
   {
     "name": "Brubeck",
@@ -70,5 +70,21 @@
   {
     "name": "Shibuya",
     "colors": ["#d2b0a3", "#ffd200", "#e51f23", "#e6007b", "005aa7", "5ec5ee", "f9f0de",  "1d1d1b"]
+  },
+  {
+    "name": "Nagaiesque",
+    "colors": ["#f299a5", "#084698", "#1a86c8", "#74afe0", "a0d6da", "f8f9f2"]
+  },
+  {
+    "name": "Praslin Dawn",
+    "colors": ["#412147", "#7b2776", "#bb2a17", "#e94e23", "f49700", "bd8b5f", "ebe2cf"]
+  },
+  {
+    "name": "Evolved Basics",
+    "colors": ["#2760ab", "#f6bcd2", "#e73d1f", "#ffcf00", "ebe2cf", "1d1d1b"]
+  },
+  {
+    "name": "Astoria",
+    "colors": ["#efe7d3", "#e9cda9", "#4972b7", "#e63212", "f29591", "f08b00"]
   }
 ]
