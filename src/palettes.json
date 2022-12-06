@@ -49,7 +49,7 @@
   },
   {
     "name": "Toucan",
-    "colors": ["#d2b0a3", "#efd1ae", "#f39b00", "#ec6907", "#2c52a0", "1d1d1b", "f9f0de", "f9f0de"]
+    "colors": ["#d2b0a3", "#efd1ae", "#f39b00", "#ec6907", "#2c52a0", "1d1d1b", "f9f0de"]
   },
   {
     "name": "Brubeck",
@@ -57,19 +57,19 @@
   },
   {
     "name": "Kabuki",
-    "colors": ["#ebe2cf", "#bc9a56", "#b76f30", "#d80f15", "#1d1e1b"]
+    "colors": ["#f9f0de", "#bc9a56", "#b76f30", "#d80f15", "#1d1e1b"]
   },
   {
     "name": "Bregenz",
-    "colors": ["#ebe2cf", "#8e8780", "#fab515", "#d7312e", "#2a71af", "ad7347", "1d1d1b"]
+    "colors": ["#f9f0de", "#8e8780", "#fab515", "#d7312e", "#2a71af", "ad7347", "1d1d1b"]
   },
   {
     "name": "Auberge du Jaune",
-    "colors": ["#f5b000", "#ffe4ac", "#eabd75", "#ebe2cf"]
+    "colors": ["#f5b000", "#ffe4ac", "#eabd75", "#f9f0de"]
   },
   {
     "name": "Shibuya",
-    "colors": ["#d2b0a3", "#ffd200", "#e51f23", "#e6007b", "005aa7", "5ec5ee", "f9f0de",  "1d1d1b"]
+    "colors": ["1d1d1b", "#d2b0a3", "#ffd200", "#e51f23", "#e6007b", "005aa7", "5ec5ee", "f9f0de"]
   },
   {
     "name": "Nagaiesque",
@@ -77,11 +77,11 @@
   },
   {
     "name": "Praslin Dawn",
-    "colors": ["#412147", "#7b2776", "#bb2a17", "#e94e23", "f49700", "bd8b5f", "ebe2cf"]
+    "colors": ["#412147", "#7b2776", "#bb2a17", "#e94e23", "f49700", "bd8b5f", "f9f0de"]
   },
   {
     "name": "Evolved Basics",
-    "colors": ["#2760ab", "#f6bcd2", "#e73d1f", "#ffcf00", "ebe2cf", "1d1d1b"]
+    "colors": ["#2760ab", "#f6bcd2", "#e73d1f", "#ffcf00", "f9f0de", "1d1d1b"]
   },
   {
     "name": "Astoria",
