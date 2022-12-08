@@ -5,7 +5,8 @@
   "main": "dist/palettes.js",
   "type": "module",
   "scripts": {
-    "build": "rm -rf ./dist/img/ && node ./build/asetojson.js && node ./build/mergejson.js && palette-aldente ./src/merged.json --formats name --no-html",
+    "build": "npm run delete && node ./build/asetojson.js && node ./build/mergejson.js && palette-aldente ./src/merged.json --formats name --no-html --palettefiles ase,sketchpalette",
+    "delete": "rm -rf ./dist/img/ && rm -rf ./dist/paletteFiles/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -27,12 +28,13 @@
   },
   "homepage": "https://studioyorktown.github.io/coloryorktownhall/",
   "dependencies": {
+    "anypalette": "^0.6.0",
     "ase-util": "^1.0.3"
   },
   "devDependencies": {
     "eslint": "^8.28.0",
     "eslint-config-google": "^0.14.0",
-    "palette-aldente": "^1.8.2"
+    "palette-aldente": "^1.10.0"
   },
   "exports": {
     "import": "./dist/palettes.esm.js",
