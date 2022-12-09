@@ -77,6 +77,8 @@
       margin-bottom: 0.45em;
       display: block;
       position: relative;
+      display: flex;
+      justify-content: space-between;
       /*
         background-size: 100%;
         -webkit-background-clip: text;
@@ -85,6 +87,14 @@
         -moz-text-fill-color: transparent;
         background-image: linear-gradient(90deg, var(--colors));
       */
+    }
+
+    .palettes__dls {
+      font-size: max(12px, .5em);
+      align-self: flex-end;
+      display: flex;
+      gap: 1ex;
+      font-weight: 200;
     }
 
     .palettes__colors {
@@ -151,6 +161,10 @@
     .palettes__ct {
       margin-top: 0.5rem;
       transition-delay: calc(280ms + var(--i) * 200ms);
+    }
+
+    .palettes__palette--many .palettes__ct {
+      font-size: .9em;
     }
 
     .palettes__cv {
@@ -329,7 +343,7 @@
       palettes.forEach(palette => {
         const $wrapBaby = document.createElement('li');
         $wrapBaby.classList.add('palettes__palette');
-        $wrapBaby.dataset.colors = palette.colors.join(',');
+        $wrapBaby.dataset.colors = palette.colors.map(c => c.value).join(',');
         $wrapBaby.style.setProperty('--parts', palette.colors.length);
         $wrapBaby.style.setProperty('--colors', palette.colors.map(c => c.value).join());
         $wrapBaby.style.setProperty('--colors-scaled',
@@ -340,10 +354,22 @@
           $wrapBaby.classList.add('palettes__palette--many');
         }
 
+        // create file with palette as json
+        let jsonFile = new File(
+          [JSON.stringify(palette.colors)],
+          `${palette.name}.json`, 
+          {type: "text/plain;charset=utf-8"}
+        );
 
         const $paletteTitle = document.createElement('h2');
         $paletteTitle.classList.add('palettes__title');
-        $paletteTitle.innerHTML = palette.name;
+        $paletteTitle.innerHTML = `<strong>${palette.name}</strong>` +
+        `<span class="palettes__dls" aria-label="download palette">` +
+          `<a href="/paletteFiles/${palette.name}.ase" class="palettes__dl">ase</a>` +
+          `<a href="${URL.createObjectURL(jsonFile)}" download="${palette.name}.json" class="palettes__dl">json</a>` +
+        `</span>`;
+
+
 
         const $colors = document.createElement('ol');
         $colors.classList.add('palettes__colors');
@@ -367,7 +393,6 @@
 
           const $h1 = document.createElement('h1');
           $h1.classList.add('palettes__ct');
-
 
           const $h2 = document.createElement('h2');
           $h2.classList.add('palettes__cv');
