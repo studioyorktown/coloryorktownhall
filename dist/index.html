@@ -365,7 +365,7 @@
         $paletteTitle.classList.add('palettes__title');
         $paletteTitle.innerHTML = `<strong>${palette.name}</strong>` +
         `<span class="palettes__dls" aria-label="download palette">` +
-          `<a href="/paletteFiles/${palette.name}.ase" class="palettes__dl">ase</a>` +
+          `<a href="./paletteFiles/${palette.name}.ase" class="palettes__dl">ase</a>` +
           `<a href="${URL.createObjectURL(jsonFile)}" download="${palette.name}.json" class="palettes__dl">json</a>` +
         `</span>`;
 
